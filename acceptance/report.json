@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "time": "2026-10-21T04:57:30.144Z",
+  "time": "2026-10-21T05:11:16.388Z",
   "status": "desktop-batches-running-phones-pending",
   "model": {
     "schemaVersion": 1,
@@ -16,7 +16,7 @@
     "frozenAt": 1792550986.5398924,
     "sourceCommit": "commits\\best\\00007200-0708231be5914b398d55a5671a462bee"
   },
-  "policyHash": "e4fd4ae2e6e230e61d5b44e014f44e22499877c531c5098a8365e0c8de1ed745",
+  "policyHash": "e98e66ff4b1ae00c41ff1f820f2735602107c6335ed2f49ff9a9dc1cc02c67af",
   "cpu": "Intel Core Ultra 7 265KF, 20 cores / 20 logical processors",
   "performance": [
     {
