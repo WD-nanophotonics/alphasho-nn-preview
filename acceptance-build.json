@@ -1,7 +1,7 @@
 {
   "modelRound": 7200,
   "modelSha256": "8835e7a98c790a7e15b36f05384df645dacd806934151cfd9f8c9d73400fe466",
-  "policyHash": "a26e9ed6139ed37d5f5e97b5ef7841dbf6272ea21ebf78b14ebc0cee3c92db56",
+  "policyHash": "e4fd4ae2e6e230e61d5b44e014f44e22499877c531c5098a8365e0c8de1ed745",
   "engineWasmSha256": "041a2caf87e5f49bedc2598aa64e2f9e1c108783ccde34cb5a2606a1cdc88cd5",
-  "time": 1792558463.1591146
+  "time": 1792558648.032348
 }
