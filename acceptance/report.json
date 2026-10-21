@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "time": "2026-10-21T05:27:03.974Z",
-  "status": "desktop-batches-running-phones-pending",
+  "time": "2026-10-21T13:34:33.269Z",
+  "status": "desktop-batches-complete-phones-pending",
   "model": {
     "schemaVersion": 1,
     "modelVersion": "alphasho-nn-v1",
@@ -17,6 +17,7 @@
     "sourceCommit": "commits\\best\\00007200-0708231be5914b398d55a5671a462bee"
   },
   "policyHash": "7ea3b893ef8e2b4162d05767b99eead0180b3890784fc2874f07c4984e3dbbc7",
+  "productionClientHash": "768de79bd76abb6894c987528b5244d373b65ecd7f571a07c10fe3f880b2e7bb",
   "cpu": "Intel Core Ultra 7 265KF, 20 cores / 20 logical processors",
   "performance": [
     {
@@ -125,9 +126,9 @@
     "note": "Desktop browser, ongoing training and one match search. Ratio is observed throughput, not a diagnosis of thermal throttling. Linear WASM memory is not browser RSS."
   },
   "difficulty": {
-    "finished": false,
-    "time": "2026-10-21T05:21:07.039Z",
-    "completed": 166,
+    "finished": true,
+    "time": "2026-10-21T13:34:33.217Z",
+    "completed": 328,
     "total": 328,
     "modelSha256": "8835e7a98c790a7e15b36f05384df645dacd806934151cfd9f8c9d73400fe466",
     "policy": "mate-priority-r1",
@@ -244,125 +245,143 @@
       {
         "a": 7,
         "b": 8,
-        "completed": 22,
+        "completed": 24,
         "required": 24,
         "wins": 2,
         "draws": 1,
-        "losses": 19,
-        "score": 0.11363636363636363,
-        "openingClusters": 11,
+        "losses": 21,
+        "score": 0.10416666666666667,
+        "openingClusters": 12,
         "openingClusterBootstrap95": [
           0,
-          0.22727272727272727
+          0.22916666666666666
         ],
         "timeouts": 0,
         "experimentalDraws": 1,
-        "p95MoveMs": 1964.3950999998488
+        "p95MoveMs": 1964.1992999999784
       },
       {
         "a": 8,
         "b": 9,
-        "completed": 0,
+        "completed": 24,
         "required": 24,
-        "wins": 0,
+        "wins": 5,
         "draws": 0,
-        "losses": 0,
-        "score": null,
-        "openingClusters": 0,
-        "openingClusterBootstrap95": null,
+        "losses": 19,
+        "score": 0.20833333333333334,
+        "openingClusters": 12,
+        "openingClusterBootstrap95": [
+          0.041666666666666664,
+          0.4166666666666667
+        ],
         "timeouts": 0,
         "experimentalDraws": 0,
-        "p95MoveMs": null
+        "p95MoveMs": 2966.7308999998495
       },
       {
         "a": 9,
         "b": 10,
-        "completed": 0,
+        "completed": 24,
         "required": 24,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "score": null,
-        "openingClusters": 0,
-        "openingClusterBootstrap95": null,
+        "wins": 9,
+        "draws": 2,
+        "losses": 13,
+        "score": 0.4166666666666667,
+        "openingClusters": 12,
+        "openingClusterBootstrap95": [
+          0.2708333333333333,
+          0.5625
+        ],
         "timeouts": 0,
-        "experimentalDraws": 0,
-        "p95MoveMs": null
+        "experimentalDraws": 2,
+        "p95MoveMs": 4966.870000001043
       },
       {
         "a": 1,
         "b": 5,
-        "completed": 0,
+        "completed": 24,
         "required": 24,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "score": null,
-        "openingClusters": 0,
-        "openingClusterBootstrap95": null,
+        "losses": 24,
+        "score": 0,
+        "openingClusters": 12,
+        "openingClusterBootstrap95": [
+          0,
+          0
+        ],
         "timeouts": 0,
         "experimentalDraws": 0,
-        "p95MoveMs": null
+        "p95MoveMs": 17.96850000321865
       },
       {
         "a": 1,
         "b": 10,
-        "completed": 0,
+        "completed": 24,
         "required": 24,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "score": null,
-        "openingClusters": 0,
-        "openingClusterBootstrap95": null,
+        "losses": 24,
+        "score": 0,
+        "openingClusters": 12,
+        "openingClusterBootstrap95": [
+          0,
+          0
+        ],
         "timeouts": 0,
         "experimentalDraws": 0,
-        "p95MoveMs": null
+        "p95MoveMs": 4965.6516000032425
       },
       {
         "a": 5,
         "b": 10,
-        "completed": 0,
+        "completed": 24,
         "required": 24,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
-        "score": null,
-        "openingClusters": 0,
-        "openingClusterBootstrap95": null,
+        "losses": 24,
+        "score": 0,
+        "openingClusters": 12,
+        "openingClusterBootstrap95": [
+          0,
+          0
+        ],
         "timeouts": 0,
         "experimentalDraws": 0,
-        "p95MoveMs": null
+        "p95MoveMs": 4965.520799998194
       },
       {
         "a": 10,
         "b": 0,
-        "completed": 0,
+        "completed": 40,
         "required": 40,
-        "wins": 0,
+        "wins": 40,
         "draws": 0,
         "losses": 0,
-        "score": null,
-        "openingClusters": 0,
-        "openingClusterBootstrap95": null,
+        "score": 1,
+        "openingClusters": 12,
+        "openingClusterBootstrap95": [
+          1,
+          1
+        ],
         "timeouts": 0,
         "experimentalDraws": 0,
-        "p95MoveMs": null
+        "p95MoveMs": 4966.204999998212
       }
     ],
     "levels": [
       {
         "level": 0,
-        "moves": 0,
-        "totalNodes": 0,
-        "p95MoveMs": null,
-        "maximumMoveMs": null
+        "moves": 889,
+        "totalNodes": 5883938,
+        "p95MoveMs": 1950.231899999082,
+        "maximumMoveMs": 1950.8480000011623
       },
       {
         "level": 1,
-        "moves": 1094,
-        "totalNodes": 824000,
-        "p95MoveMs": 16.467299999996612,
+        "moves": 2093,
+        "totalNodes": 1214406,
+        "p95MoveMs": 16.44200000166893,
         "maximumMoveMs": 23.355900000002293
       },
       {
@@ -388,9 +407,9 @@
       },
       {
         "level": 5,
-        "moves": 2200,
-        "totalNodes": 14470398,
-        "p95MoveMs": 31.832599999994272,
+        "moves": 3508,
+        "totalNodes": 21490788,
+        "p95MoveMs": 31.64139999821782,
         "maximumMoveMs": 96.45619999998598
       },
       {
@@ -402,37 +421,37 @@
       },
       {
         "level": 7,
-        "moves": 2219,
-        "totalNodes": 398910385,
-        "p95MoveMs": 1179.4929000004195,
+        "moves": 2299,
+        "totalNodes": 411419479,
+        "p95MoveMs": 1134.0808000001125,
         "maximumMoveMs": 1268.3628000000026
       },
       {
         "level": 8,
-        "moves": 1309,
-        "totalNodes": 1191637202,
-        "p95MoveMs": 1966.251200000057,
+        "moves": 2648,
+        "totalNodes": 2429506779,
+        "p95MoveMs": 1966.2846999999601,
         "maximumMoveMs": 1975.6386000000057
       },
       {
         "level": 9,
-        "moves": 0,
-        "totalNodes": 0,
-        "p95MoveMs": null,
-        "maximumMoveMs": null
+        "moves": 3137,
+        "totalNodes": 5826440508,
+        "p95MoveMs": 2967.516899999231,
+        "maximumMoveMs": 2976.786400001496
       },
       {
         "level": 10,
-        "moves": 0,
-        "totalNodes": 0,
-        "p95MoveMs": null,
-        "maximumMoveMs": null
+        "moves": 3920,
+        "totalNodes": 11846894983,
+        "p95MoveMs": 4967.234600000083,
+        "maximumMoveMs": 4981.348899999633
       }
     ],
     "note": "Node WASM paired screening, not phone speed. Intervals resample actual opening clusters, including repeated ABP openings. Partial groups cannot pass acceptance. No official Elo."
   },
   "physicalDevices": "pending; no phone performance or rank is claimed",
-  "production": "unchanged",
+  "production": "owner-authorized first release; see PR/deployment for publication status",
   "notes": [
     "NN fixed r7200; later distillation champions are separate.",
     "Retired 177-game screening had a mate-priority bug; its outcomes are exploratory only.",
